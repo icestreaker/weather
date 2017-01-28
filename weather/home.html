@@ -1,0 +1,41 @@
+<script
+src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel= "stylesheet" href= "/css/styles.css">
+</head>
+
+<body class="weather">
+
+  <div class="weather__main"
+    <p>
+      <a href = "https://darksky.net/poweredby">https://darksky.net/poweredby</a>
+    </p>
+      <h3>Type address to get weather</h3>
+      <p><a href = "https://darksky.net/poweredby/"></a></p>
+      <div id="history"</div>
+    </div>
+    <ol id="time" class="weather__info"></ol>
+
+    <div class"weather__footer">
+      <form id="address-form">
+        <input name="address" type="text" placeholder="Address" autofocus autocomplete="off"/>
+        <p><button id="get-weather">Send</button></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="/user/libs/jquery-3.1.1.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/weather/js/libs/moment.js"></script>
+  <script src="/weather/js/libs/mustache.js"></script>
+  <script src="/weather/js/index.js"></script>
+</body>
+
+</html>
