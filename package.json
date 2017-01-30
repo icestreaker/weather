@@ -10,15 +10,19 @@
   "author": "James Warren Basham",
   "license": "ISC",
   "dependencies": {
+    "address": "0.0.1",
     "axios": "^0.15.3",
     "body-parser": "^1.16.0",
     "darksky": "^0.1.2",
     "express": "^4.14.0",
     "forecastio": "^1.0.2",
+    "htmlparser": "^1.7.7",
+    "infrajs": "0.0.11",
     "jQuery": "^1.7.4",
-    "address": "0.0.1",
+    "jquery": "^3.1.1",
     "moment": "^2.17.1",
     "moustache": "0.0.1",
+    "njs": "0.0.2",
     "socket.io": "^1.7.2"
   }
 }
